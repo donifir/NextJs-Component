@@ -1,0 +1,16 @@
+json
+->buat file di root folder 
+  ->db.json
+
+menjalankan server
+->json-server -w db.json -p 5000
+
+ex
+->Get
+  -http://localhost:5000/products
+->get detail 
+  -http://localhost:5000/products/1
+->post / method post 
+  -http://localhost:5000/products
+->delete / method delete
+  -http://localhost:5000/products
